@@ -13,7 +13,7 @@
 2. Create new schema for your mySQL database: `archintel_exam`
 3. copy `env.example` to `.env`
    
-- make sure mySQL server credentials and change value the following
+- make sure mySQL server credentials and change value of the following
 
  DB_CONNECTION=mysql
 
@@ -25,7 +25,7 @@
 
  DB_USERNAME=`your database username`
 
-DB_PASSWORD=`your database password`
+ DB_PASSWORD=`your database password`
 
 5. (terminal) run `php artisan migrate`
 6. (terminal) run `php artisan key:generate`
